@@ -1,0 +1,483 @@
+#searchresult {
+  text-align: center;
+  font-size: 1.0rem;
+  width: 100%;
+  margin-top: 5px;
+color:#FFF;
+}
+html{
+  font-size: 62.5%;
+}
+td{
+  width: 50%;
+}
+.td1{
+  width: 50%;
+    border: solid 1.2px rgb(126, 204, 232);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+body{
+  font-family: 'Noto Sans JP';
+  text-align: center;
+  margin: 0;
+  color:#FFF;
+    background-size: 1000px 1000px;
+background-image:
+ linear-gradient(45deg,  #585fcf 25%, #585fcf 25%, transparent 25%,
+  transparent 75%, #585fcf 75%, #585fcf 75%),
+ linear-gradient(-45deg,#585fcf 25%,#585fcf 25%, transparent 25%,
+  transparent 75%, #585fcf 75%, #585fcf 75%);
+background-color:rgba(11, 20, 152, 0.72);
+padding: 10px;
+}
+.trclass{
+  border-bottom: solid 2px #FFF;
+  margin-bottom: 5px;
+}
+.name {
+  color:#FFF;
+  font-weight: normal;
+  font-size: 1.3rem;
+}
+.name2 {
+  color:#FFF;
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+.title{
+  font-family: 'Noto Serif JP';
+  font-size: 2rem;
+  color: #FFF;
+  padding: 7px;
+}
+.title2{
+  font-family: 'Noto Serif JP';
+  font-size: 1.7rem;
+  color: #FFF;
+  padding: 7px;
+}
+.vicinity{
+  font-weight: 300;
+  color:#fff5f5;
+}
+.button3{
+  font-size: 1.1rem;
+  border: solid 1px #fd9535;
+  background-color: rgba(250, 143, 52, 0.3);
+  margin: 6px;
+  color: #FFF;
+  margin-top: 12px;
+  text-decoration:none;
+}
+.button4{
+  font-size: 0.9rem;
+  border: solid 1px #fd9535;
+  background-color: rgba(0, 0, 0, 0);
+  color: #FFF;
+}
+.button5{
+  margin-top: 20px;
+  font-size: 1.2rem;
+  border: solid 1px #fd9535;
+  display: inline-block;
+  background-color: rgba(250, 143, 52, 0.3);
+  color: #FFF;
+  padding:2px 40px;
+}
+table{
+  width: 100%;
+}
+.mapframe{
+  width: 100%;
+  height: auto;
+  border: none;
+}
+.red{
+  color: #ffd80e;
+}
+.info{
+    color: #FFF;
+}
+#search{
+  
+  height: 100vh;
+  text-align: center;
+}
+.searching{
+  font-size:1rem;
+  color:#FFF;
+}
+.img{
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+ 
+}
+h1{
+  font-size:2rem;
+  margin: 0;
+}
+#top{
+  height:100vh;
+      background-image: url(bgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.topimg{
+  width: 80%;
+  margin-top: 20%;
+}
+#opacity{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.60);
+}
+.top-title{
+  height: 100%;
+}
+.buttons{
+  position: absolute;
+  bottom: 0;
+  
+  width:100%;
+  text-align: center;
+}
+.button1
+{
+  font-size:1.6rem;
+  margin-top:20px;
+  position: relative;
+  display: inline-block;
+  padding: 0.6em 0.9em;
+  text-decoration: none;
+  color:#FFF;
+  background: rgba(252, 140, 12, 0.726);/*�w�i�F*/
+    border-radius: 4px;/*�p�̊ۂ�*/
+  font-weight: 300;
+  font-family: 'Noro Sans JP';
+  border: solid 2px #ffffff;
+}
+.button1:active {
+  border-bottom: solid 2px #fd9535;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+}
+.button2
+{
+  font-size:1.6rem;
+  margin-top:20px;
+  position: relative;
+  display: inline-block;
+  padding: 0.6em 0.9em;
+  text-decoration: none;
+  color:#FFF;
+  background: rgba(12, 252, 120, 0.726);/*�w�i�F*/
+    border-radius: 4px;/*�p�̊ۂ�*/
+  font-weight: 300;
+  font-family: 'Noro Sans JP';
+  border: solid 2px #ffffff;
+  margin-bottom: 20px;
+}
+.button2:active {
+  border-bottom: solid 2px #35fd99;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+}
+
+.tittle1{
+   margin-top:20px;
+  font-size:2rem;
+  text-align: center;
+  font-weight: 500;
+}
+.moji{
+  margin-top:13px;
+  font-size:1.3rem;
+  text-align: left;
+  margin:10px;
+  font-weight: 300;
+}
+.status{
+  font-size: 0.8rem;
+  font-weight: 300;
+  width: 90%;
+  margin: auto;
+  text-align: left;
+}
+.image1{
+  width: 90%;
+}
+.storeinfo{
+  
+}
+.kijyun{
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  text-align: center;
+  margin-top: 5px;
+  
+}
+#kijyunarea{
+  margin-bottom: 20px;
+}
+.statustitle{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.radio {
+	display: none;
+}
+#statusarea{
+  background-color: rgba(0,0,0,0.3);
+}
+.radio + .radio_image {
+	border: 3px #ffffff solid;
+  background-color: #ffffff;
+  width: 22%;
+  width: calc(25% - 10px);
+}
+.radio:checked + .radio_image {
+	border: 3px #ff0000 solid;
+	background-color: #ffeeee;
+}
+.sendstatus{
+  width: 90%;
+  margin:auto;
+  margin-top: 10px;
+}
+.facebook {
+  width: 25%;
+  background-color: #2e4a88;
+  box-shadow: 0 4px 0 #1B3D82;
+  text-shadow: 0 -1px -1px #1B3D82;
+  
+  display: inline-block;
+  position: relative;
+  font-family: Arial;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 14px 25px;
+  margin: 10px;
+}
+.facebook:hover {
+  background-color: #354F84;
+}
+.facebook:active {
+  top: 2px;
+	box-shadow: 0 2px 0 #1B3D82;
+}
+.twitter {
+  width: 25%;
+  background-color: #008DDE;
+  box-shadow: 0 4px 0 #0078BD;
+  display: inline-block;
+  position: relative;
+  font-family: Arial;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 14px 25px;
+}
+.twitter:active {
+  top: 2px;
+	box-shadow: 0 2px 0 #0078BD;
+}
+.twitter:hover {
+  background-color: #1397D8;
+}
+.share{
+  margin: 10px auto;
+}
+dl.search2{
+  position:relative;
+  
+}
+dl.search2 dt{
+	margin-right:105px;
+	padding:8px;
+	background-color:#fff;
+	border:1px solid #aaa;
+}
+dl.search2 dt input{
+	width:100%;
+  height:2rem;
+  font-size: 1.6rem;
+	line-height:2rem;
+	background:none;
+  border:none;
+  outline: 0;
+}
+dl.search2 dd{
+	position:absolute;
+	top:0;
+	right:0;
+}
+dl.search2 dd button{
+  font-size: 1.4rem;
+	display:inline-block;
+	width:100px;
+	height:calc(2rem + 20px);
+	color:#fff;
+	line-height:2rem;
+	text-align:center;
+	background-color:#f66;
+	border:1px solid #c66;
+}
+#header{
+  height: 5vh;
+}
+.headerimg{
+  height: 100%;
+}
+.gekikomi{
+  font-size: 1.2rem;
+  margin-top: 5px;
+  color:#ff4929;
+}
+.komi{
+  font-size: 1.2rem;
+  margin-top: 5px;
+  color:#ff9204;
+}
+.malasui{
+  font-size: 1.2rem;
+  margin-top: 5px;
+    color:#2fd60e;
+}
+.sui{
+  font-size: 1.2rem;
+  margin-top: 5px;
+  color:#6eeeff;
+}
+.notinfo{
+  font-size: 1.0rem;
+  margin-top: 5px;
+}
+.hour{
+  background-color: rgba(0, 0, 0, 0.30);
+}
+#hobun{
+  text-align: center;
+  margin-top: 40px;
+}
+.footer{
+  position:absolute;
+
+  left:0;
+  right:0;
+  width: 100%;
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 1.0rem;
+  font-weight: 300;
+  background-color: rgba(0, 0, 0, 0.60);
+}
+#loader-bg {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: #FFF;
+    z-index: 1;
+}
+#loader {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    text-align: center;
+    color: #008DDE;
+    z-index: 2;
+}
+#contens{
+}
+
+@media screen and (min-width:768px) {
+    /*　画面サイズが1024pxからはここを読み込む　*/
+    html { font-size: 92.5%; }
+    body{
+      padding: 0px;
+      width: 80%;
+      margin: auto;
+      text-align:center;
+    }
+    #hobun{
+            padding: 0px;
+      width: 80%;
+      margin: auto;
+      margin-top: 40px;
+      text-align:center;
+    }
+    #searchresult{
+      background-size: 3000px 3000px;
+      padding: 0px;
+      width:90%;
+    margin:auto;
+    }
+    .img{
+      width: 60%;
+    }
+    .moji{
+      
+    }
+    .kijyun{
+      width: 25%;
+    }
+    .sendstatus{
+      width: 40%;
+    }
+
+    .topimg{
+      margin-top: 10%;
+      width:40%;
+    }
+
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+  
+    #searchresult{
+      background-size: 2000px 2000px;
+      width: 90%;
+      margin:auto;
+    }
+    body{
+      width: 90%;
+    }
+    #hobun{
+      width: 100%;
+    }
+        .moji{
+      text-align: left;
+    }
+        .sendstatus{
+      width: 70%;
+    }
+        .topimg{
+      width:60%;
+    }
+
+}
+@media screen and (max-height:568px) {
+  
+    html{
+      font-size: 45%;
+    }
+    .topimg{
+      margin-top: 10px;
+    }
+
+}

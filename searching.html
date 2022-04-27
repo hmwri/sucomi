@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>現在地情報を取得中...</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      text-align: center;
+
+    }
+
+    a {
+      color: aqua;
+    }
+  </style>
+</head>
+
+<body>
+
+  <script type="text/javascript">
+    window.onload = function ()
+    {
+      getGPS(0);
+    }
+
+    function getGPS(flag)
+    {
+      if (navigator.geolocation)
+      {
+        // 現在の位置情報を取得（2）
+        navigator.geolocation.getCurrentPosition(
+          function (pos)
+          {
+            // 取得した位置情報をページに反映（3）
+            var x = pos.coords.longitude;
+            var y = pos.coords.latitude;
+            var fm = document.getElementById("fm1");
+            document.getElementById("post").innerHTML = '<input type="hidden" name="x" value="' + x + '">' + '<input type="hidden" name="y" value="' + y + '"><input type="submit" name="" value="完了">';
+            fm1.submit();
+          },
+          function (error)
+          {
+            switch (error.code)
+            {
+              case error.POSITION_UNAVAILABLE:
+                message = "位置情報の取得ができませんでした。";
+                break;
+              case error.PERMISSION_DENIED:
+                message = "位置情報取得の使用許可がされませんでした。許可をお願いします。";
+                if (flag != 2)
+                {
+                  flag++;
+                  console.log(flag);
+                  getGPS(flag);
+                }
+                break;
+              case error.PERMISSION_DENIED_TIMEOUT:
+                message = "位置情報取得中にタイムアウトしました。";
+                break;
+            }
+            window.alert(message);
+          }
+        );
+      } else
+      {
+        window.alert('Geolocation API対応ブラウザでアクセスしてください。');
+      }
+    }
+  </script>
+  <form action="search.php" id="fm1" method="post">
+    <div id="post">
+    </div>
+  </form>
+  <div id="search">
+    <img src="loading.gif" alt="混雑状況の提供をお願いします" class="img">
+    <div class="searching">
+      <h1>検索中です...<br>少しお待ちください。</h1>
+      <br>
+      ※位置情報の取得の許可をお願いします。<br>
+      もし、いつまで経っても変わらない。またはエラーメッセージが出た場合は
+      <a href="index.html">こちら</a>に戻り、検索機能をご利用ください。
+    </div>
+  </div>
+</body>
+
+</html>
