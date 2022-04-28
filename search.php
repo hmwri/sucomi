@@ -21,8 +21,8 @@ $DSN = sprintf('mysql:host=%s;dbname=%s;charest=utf8,unix_socket=/tmp/mysql.sock
   <body>
     <div id="loader-bg">
   <div id="loader">
-  　<img src="Preloader_4.gif" alt="Loading..." />
-  　<p>Loading...(しばらく時間がかかる場合があります)</p>
+  <img src="Preloader_4.gif" alt="Loading..." />
+  <p>Loading...(しばらく時間がかかる場合があります)</p>
   </div>
 </div>
 <div id="contens">
